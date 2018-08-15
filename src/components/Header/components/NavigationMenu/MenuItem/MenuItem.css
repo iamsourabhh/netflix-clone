@@ -1,0 +1,36 @@
+.navigation-menu-list-item {
+  /* color: #fff; */
+  height: 100%;
+  display: block;
+  list-style-type: none;
+  margin-left: 18px;
+  /* cursor: default; */
+}
+
+.navigation-menu-list-item-anchor-selected {
+  color: #fff;
+  text-decoration: none;
+  align-self: center;
+  cursor: default;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  font-size: 14px;
+  font-weight: 700;
+  /* cursor: default; */
+}
+.navigation-menu-list-item-anchor {
+  color: #e5e5e5;
+  transition: color 0.8s;
+  text-decoration: none;
+  align-self: center;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  font-size: 14px;
+  /* cursor: default; */
+}
+.navigation-menu-list-item-anchor :hover {
+  color: #b3b3b3;
+  /* cursor: default; */
+}
