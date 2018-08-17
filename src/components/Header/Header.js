@@ -5,6 +5,7 @@ import NavigationMenu from './components/NavigationMenu/NavigationMenu';
 import SearchBarButton from '../SearchBarButton/SearchBarButton';
 import MenuItem from './components/NavigationMenu/MenuItem/MenuItem';
 import NotificationButton from '../NotificationButton/NotificationButton';
+import AccountDropDown from './components/AccountDropDown/AccountDropDown';
 
 const Header = () => {
   const selectedItemId = 1;
@@ -45,6 +46,7 @@ const Header = () => {
           <SearchBarButton />
           <MenuItem text="CHILDREN" />
           <NotificationButton />
+          <AccountDropDown />
         </div>
       </div>
     </div>
